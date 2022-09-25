@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/primary"
+    tools:context=".RegisterFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="30sp"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etUsername"
+        android:hint="Type Your Username"
+        android:textColorHint="@color/darker_gray"
+        android:textColor="@color/darker_gray"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etEmail"
+        android:hint="Type Your Email"
+        android:textColorHint="@color/darker_gray"
+        android:textColor="@color/darker_gray"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etPassword"
+        android:hint="Type Your Password"
+        android:textColorHint="@color/darker_gray"
+        android:textColor="@color/darker_gray"
+        android:inputType="textPassword"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:lines="1"
+        android:drawableEnd="@drawable/ic_baseline_remove_red_eye_regist"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etConfirm"
+        android:hint="Confirm Password"
+        android:textColorHint="@color/darker_gray"
+        android:textColor="@color/darker_gray"
+        android:inputType="textPassword"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:lines="1"
+        android:drawableEnd="@drawable/ic_baseline_remove_red_eye_regist"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSignUp"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/primary"
+        android:background="@drawable/rounded_bg_regist"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_medium"/>
+
+</LinearLayout>
